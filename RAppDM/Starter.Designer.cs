@@ -1,6 +1,6 @@
 ﻿namespace RAppDM
 {
-    partial class Form1
+    partial class Starter
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Starter
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.CausesValidation = false;
+            this.ClientSize = new System.Drawing.Size(50, 50);
+            this.ControlBox = false;
+            this.Enabled = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Starter";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "EASTER EGG of RAppDM";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Starter_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
